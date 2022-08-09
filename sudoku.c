@@ -37,9 +37,9 @@ void print_table()
     for (int r=0; r < 9; r++) {
         for (int c=0; c < 9; c++) {
             if (table[r][c] != -1) {
-                printf("%d",table[r][c]); 
+                printf("%d ",table[r][c]); 
             } else {
-                printf("."); 
+                printf(". "); 
             }
         }
         printf("\n"); 

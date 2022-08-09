@@ -9,10 +9,10 @@ CFLAGS=-Wall -fstack-protector-all
 
 INP=$(wildcard *.c)
 
-main: 
+solve: 
 	$(CC) $(CFLAGS) $(INP) -o $@ 
 
 .PHONY: clean
 
 clean: 
-	rm main
+	rm solve 

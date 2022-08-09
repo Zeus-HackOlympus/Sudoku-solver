@@ -13,11 +13,7 @@
 
 void fill_table();
 void print_table(); 
-
 int checkall(int row, int col, int num); 
-void place_valid_num(int r, int c); 
-
-int finalcheck(); 
 int empty_found(); 
 int solve(); 
 
